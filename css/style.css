@@ -1,1 +1,45 @@
+
 /* All style should go in this document. */
+h1	{color: black;
+	text-align: center;
+}
+
+
+
+h3#phone 	{display: inline;
+			 position: absolute;
+			 left; 20px;
+			}
+
+h3#address 	{display: inline;
+			position: absolute;
+			left: 530px;
+			}
+
+h3#email	{display:inline;
+			position: absolute;
+			right: 20px;}
+
+
+p   {font-size: 15px;
+     color: black;
+}
+
+td.col1 {column-width: 100px;}
+
+td.col2 {column-width: 100px;}
+
+#pic1 {position: absolute;
+	   left: 550px;
+	   width: 150px;
+       height: 200px;
+       transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg); 
+}
+
+#skills {position: absolute;
+		left: 40px}
+
+#manage {position: absolute;
+		left: 40px}
