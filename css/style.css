@@ -2,6 +2,7 @@
 /* All style should go in this document. */
 h1	{color: black;
 	text-align: center;
+
 }
 
 
@@ -13,7 +14,7 @@ h3#phone 	{display: inline;
 
 h3#address 	{display: inline;
 			position: absolute;
-			left: 530px;
+			left: 520px;
 			}
 
 h3#email	{display:inline;
@@ -29,7 +30,7 @@ p   {font-size: 15px;
 		text-align: left;
 		}
 
-.col2 {width: 800px;
+.col2 {width: 700px;
 		text-align: left;}
 
 #pic1 {position: absolute;
@@ -44,5 +45,15 @@ p   {font-size: 15px;
 #skills {position: absolute;
 		left: 40px}
 
-#manage {position: absolute;
-		left: 40px}
+
+#edu1 {position: absolute;
+
+		left: 10px;}
+
+#edu2 {position: absolute;
+	  display: inline;
+	  left: 117px;}
+
+#edu3 {position: absolute;
+	  display: inline;
+		left: 117px;}
