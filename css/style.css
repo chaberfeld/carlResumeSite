@@ -2,8 +2,8 @@
 /* All style should go in this document. */
 h1	{color: black;
 	text-align: center;
-
-}
+	margin: 0px;
+    }
 
 
 
@@ -19,41 +19,47 @@ h3#address 	{display: inline;
 
 h3#email	{display:inline;
 			position: absolute;
-			right: 20px;}
+			right: 20px;
+			}
 
 
 p   {font-size: 15px;
      color: black;
-}
+	}
 
 .col1 {width: 100px;
 		text-align: left;
-		}
+	}
 
 .col2 {width: 700px;
 		text-align: left;}
 
+
 #pic1 {position: absolute;
-	   right: 100px;
-	   width: 150px;
-       height: 200px;
+	   top: 500px;
+	   right: 200px;
+	   width: 200px;
+       height: 300px;
        transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       -webkit-transform: rotate(90deg); 
-}
+    }
 
 #skills {position: absolute;
-		left: 40px}
+		left: 40px
+	}
 
 
 #edu1 {position: absolute;
-
-		left: 10px;}
+   	   left: 10px;
+   	}
 
 #edu2 {position: absolute;
 	  display: inline;
-	  left: 117px;}
+	  left: 117px;
+	}
 
 #edu3 {position: absolute;
 	  display: inline;
-		left: 117px;}
+		left: 117px;
+	}
