@@ -22,6 +22,8 @@ h3#email	{display:inline;
 			right: 20px;
 			}
 
+#div1 p {font-size:18px;
+		}
 
 p   {font-size: 15px;
      color: black;
@@ -63,3 +65,19 @@ p   {font-size: 15px;
 	  display: inline;
 		left: 117px;
 	}
+
+#div1:hover {background-color: #99ff99;
+}
+
+#div2:hover {background-color: #99ccff;
+}
+
+#div3:hover {background-color: #ff99cc;
+}
+
+#div4:hover {background-color: #ff5050;
+}
+
+#div5:hover {background-color: #ccff33;
+}
+ 
