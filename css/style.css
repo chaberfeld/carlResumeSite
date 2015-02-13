@@ -25,12 +25,15 @@ p   {font-size: 15px;
      color: black;
 }
 
-td.col1 {column-width: 100px;}
+.col1 {width: 100px;
+		text-align: left;
+		}
 
-td.col2 {column-width: 100px;}
+.col2 {width: 800px;
+		text-align: left;}
 
 #pic1 {position: absolute;
-	   left: 550px;
+	   right: 100px;
 	   width: 150px;
        height: 200px;
        transform: rotate(90deg);
