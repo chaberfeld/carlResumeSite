@@ -7,17 +7,17 @@ h1	{color: black;
 
 
 
-h3.left 	{display: inline;
+h3#phone 	{display: inline;
 			 position: absolute;
 			 left; 20px;
 			}
 
-h3.cent 	{display: inline;
+h3#address 	{display: inline;
 			position: absolute;
 			left: 520px;
 			}
 
-h3.right	{display:inline;
+h3#email	{display:inline;
 			position: absolute;
 			right: 20px;
 			}
@@ -44,7 +44,7 @@ p   {font-size: 15px;
        height: 300px;
        transform: rotate(90deg);
       -moz-transform: rotate(90deg);
-      -webkit-transform: rotate(90deg);  
+      -webkit-transform: rotate(90deg); 
     }
 
 #skills {position: absolute;
