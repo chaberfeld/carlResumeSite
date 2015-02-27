@@ -1,98 +1,131 @@
+/* All markup */
 
-/* All style should go in this document.
-	} */
-
-body {background: url("IMG_3279.JPG");
-      background-attachment: fixed;
-      color: white;
-
+body {font-family: sans-serif;
+      font-size: 1.0em;
+      color: #1a1a50;
+}
+p.toolbar {background-color: #1a1a50;
+           color: white;
 }
 
-h1	{text-align: center;
-	margin: 0px;
-	color: black;
-    }
+/* Personal section */
 
-
-
-h3#phone 	{display: inline;
-			 position: absolute;
-			 left; 20px;
-			 color: black;
-			}
-
-h3#address 	{display: inline;
-			position: absolute;
-			left: 520px;
-			color: black;
-			}
-
-h3#email	{display:inline;
-			position: absolute;
-			right: 20px;
-			color: black;
-			}
-
-#div1 p {font-size:18px;
-		}
-
-p   {font-size: 15px;
-	}
-
-.col1 {width: 100px;
-		text-align: left;
-	}
-
-.col2 {width: 700px;
-		text-align: left;}
-
-
-#pic1 {position: absolute;
-	   top: 500px;
-	   right: 200px;
-	   width: 200px;
-       height: 300px;
-       transform: rotate(90deg);
-      -moz-transform: rotate(90deg);
-      -webkit-transform: rotate(90deg);  
-    }
-
-#skills {position: absolute;
-		left: 40px
-	}
-
-
-#edu1 {position: absolute;
-   	   left: 10px;
-   	}
-
-#edu2 {position: absolute;
-	  display: inline;
-	  left: 117px;
-	}
-
-#edu3 {position: absolute;
-	  display: inline;
-		left: 117px;
-	}
-
-#div1:hover {background-color: #99ff99;
-	         color: black;
+div#per {position: absolute;
+         width: 320px;
+         height: 600px;
+/*         background-color:rgba(236,246,192,1); */
+         z-index: 10;
+         left: 0%;
+         top: 0;
+         box-shadow: -6px 6px 10px #666;
+         background: url("IMG_3279.JPG");
 }
-
-#div2:hover {background-color: #99ccff;
-	         color: black;
+#perTool {color: red;
 }
-
-#div3:hover {background-color: #ff99cc;
-	         color: black;
-}
-
-#div4:hover {background-color: #ff5050;
-	         color: black;
-}
-
-#div5:hover {background-color: #ccff33;
-	         color: black;
+#perTitle {margin: 0 0 0 60px;
 }
  
+img#face {width:200px;
+          height: 200px;
+          margin: 0 0 0 50px;
+}
+ul#perContacts {width: 275px;
+}
+.perData {font-size: 1.1em;
+}
+
+/* Navigation section */
+
+div#nav {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         z-index: 5;
+         left: 0%;
+         top: 0;
+         box-shadow: -6px 6px 10px #666;
+}
+#navTool {color: red;
+}
+#navTool:active{color: yellow;
+}
+#navTitle {margin: 0 0 0 100px;
+}
+
+/* Employment section */
+
+div#emp {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         z-index: 1;
+         left: 0%;
+         top: 700px;
+         box-shadow: 6px 6px 10px #666;
+         z-index: 15;
+}
+#empTool {color: red;
+}
+#empTool:active{color: yellow;
+}
+#empTitle {margin: 0 0 0 100px;
+}
+/* Education section */
+
+div#edu {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         z-index: 1;
+         left: 30%;
+         top: 700px;
+         box-shadow: 6px 6px 10px #666;
+         z-index: 15;
+}
+#eduTool {color: red;
+}
+#eduTool:active{color: yellow;
+}
+#eduTitle {margin: 0 0 0 100px;
+}
+
+/* Project section */
+
+div#proj {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         z-index: 1;
+         left: 60%;
+         top: 700px;
+         box-shadow: 6px 6px 10px #666;
+         z-index: 15;
+}
+#projTool {color: red;
+}
+#projTool:active{color: yellow;
+}
+#projTitle {margin: 0 0 0 110px;
+}
+
+/* Lang section */
+
+div#lang {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         z-index: 1;
+         left:90%;
+         top: 700px;
+         box-shadow: 6px 6px 10px #666;
+         z-index: 15;
+}
+#langTool {color: red;
+}
+#langTool:active{color: yellow;
+}
+#langTitle {margin: 0 0 0 100px;
+  
+
+
+

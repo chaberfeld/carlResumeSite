@@ -6,78 +6,169 @@
         <script src="js/"></script>
     </head>
 
-    <body>
-
-        <h1>Carl J. Haberfeld </h1>
-
-        <h3 id="phone"> (203) 514-8770</h3>
-        <h3 id="address">259 Todd Street, Hamden CT 06518</h3>
-        <h3 id="email">chaberfeld@gmail.com</h3>
 
 
-        <br><br>
-        <hr>
+<body>
+  
+<!-- Personal Information -->
+<div id="per">
+  <p class="toolbar">
+    <span id="perTool" onclick="perClick();return;">@</span>
+    <span id="perTitle"><b>Carl J. Haberfeld</b></span>
+  </p>
+  
+  <img id="face" src="img/IMG_2387.JPG">
+  
+  <ul id="perContacts">
+    <li class="perData">Cell<b><br> (203) 514-8770</b></li><br>
+    <li class="perData"><b>chaberfeld@gmail.com</b></li><br>
+    <li class="perData"><b>haberfeldc1@owls.southernct.edu</b></li><br>
+    <li class="perData">GitHub <b>chaberfeld.github.io</b></li>
+  </ul>
+ </div>
 
-        <div id="div1">
-        <p class="subhead"><b>Goal:</b>  To develop valued computer applications where I am challenged creatively, rewarded for hard work, and where I may remain relevant,  no matter where technology evolves.</p>
-   	 	</div>
+<!-- Navigation column -->
+<div id="nav">
+  <p class="toolbar">
+    <span id="navTool" onclick="navClick();return;" >#</span>
+    <span id="navTitle">Menu</span>
+  </p>
+                     
+ <ul>
+   <li><a href="javascript:eduClick();">Education</a></li>
+   <li><a href="javascript:projClick();">Projects</a></li>
+   <li><a href="javascript:empClick();">Work History</a></li>
+   <li><a href="javascript:langClick();">Programming</a></li>
+ </ul>
+</div>
 
-   	 	<div id="div2">
-        <p class="subhead"><b>Accomplishments:</b></p>
-        <ul>
-        	<li>Wrote financial reporting system; was basis for for termination of a family business (12/2012)</li>
-        	<li>Designed and programmed parts driver efficiency system using payroll and Google Maps data; used to identify low productivity drivers during several rounds of layoffs (2011)</li>
-        	<li>Integrated company's IBM iSeries with a web-based electronic catalog service; over 30 accounts enrolled eliminating need to add one counter person (2011)</li>
-        	<li>Planned for and implemented upgrade of older AS/400 to an Advanced iSeries 520, saving $5-10K mitgratrion service charge (2010)</li>
-        	<li>Designed, with network consultant, the conversion of leased-line, multi-site configuration to a TCP/IP network, thin client based systewm, eliminating all twinax, SDLC technology</li>
-        	<li>Converted complex report-based purchasing system for warehouse to online, thereby reducing time to produce a purchase order by 50% (2004)</li>
-        	<li>Designed and programmed a rebate disbursement system, and many other systems, for a nationally based Auto Pride, an Auto/Truck parts buying group. Handled all of the group's programming needs during its rapid expansion (1990s)</li>
-        	<li>Redesigned dozens of systems for warehouse operation, such as A/R collecrtions, product receipts, item data maintenace, inventory control, accounts payable, sales support, along with requiste database design (1990s)</li>
-        	<li>Designed, programmed, and implemented Order Entry and Point of Sale systems for auto parts warehouse distributor, saving company $35,000 on a software package (1990s)</li>
-        </ul>
-    	</div>
+  <!-- Education -->
+<div id="edu">
+  <p class="toolbar">
+    <span id="eduTool"  onclick="eduClick();return;">&</span>
+    <span id="eduTitle">Education</span>
+  </p>
+                     
+ <dl>
+   <dt><b>Education</b>
+       <dd>SCSU 2014-current</dd>
+       <dd>Elmira College, Biochemisty</dd>
+ </dl>
+</div>
 
-        <div id="div3">
-        <p class="subhead"><b>Programming Skills/Knowledge:</b></p>
+   <!-- Employment -->
+<div id="emp">
+  <p class="toolbar">
+    <span id="empTool" onclick="empClick();return;">&</span>
+    <span id="empTitle">Employment</span>
+  </p>
+                     
+ <dl>
+   <dt><b>Work Experience</b>
+       <dd>Owner</dd>
+       <dd>Computer programmmer</dd>
+ </dl>
+</div>
+  
+<!-- Projects -->
+<div id="proj">
+  <p class="toolbar">
+    <span id="projTool" onclick="projClick();return;">&</span>
+    <span id="projTitle">Projects</span>
+  </p>
+                     
+  <dl>
+    <dt><b>Projects</b>
+       <dd>Some of this</dd>
+       <dd>Some of that</dd>
+ </dl>
+</div>
+  
+ <!-- Languages -->
+<div id="lang">
+  <p class="toolbar">
+    <span id="langTool" onclick="langClick();return;">&</span>
+    <span id="langTitle">Programming</span>
+  </p>
+                     
+  <dl>
+    <dt><b>Languages</b>
+       <dd>RPG (on IBM AS/400)</dd>
+       <dd>Java</dd>
+       <dd>Perl</dd>
+       <dd>Javascript</dd>
+       <dd>SQL</dd>
+    
+ </dl>
+</div>
+  
+  
+ <!-- Actual Javascript -->
+<script>
+  
+  function perClick() {
+   if (document.getElementById("per").style.left==0) { document.getElementById("per").style.left="260px";
+  } else {
+  document.getElementById("per").style.left="0";
+  return;
+  }
+} 
+  
+ function navClick() {
+document.getElementById("per").style.left="0";
+} 
+  
+ function eduClick() {
+  if (document.getElementById("edu").style.top!=0) {
+    document.getElementById("edu").style.top="700px";
+    document.getElementById("edu").style.left="0%";
+
+  } else {
+    document.getElementById("edu").style.top="0";
+    document.getElementById("edu").style.left="0";
+  }
+  return;
+}
  
-        	<p id="skills">RPG II/III/ILE, OCL, CL system configuration, system operations, form design, database design, system analysis; received A+ in Web Programming at SCSU (HTML/CSS/javascript, Perl, Ruby); received A in Database/SQL and A in Software Quality classes (Fall 2014)</p>
-        	<br><br><br>
-     	</div>  
+ function empClick() {
+  if (document.getElementById("emp").style.top!=0) {
+    document.getElementById("emp").style.top="700px";
+    document.getElementById("emp").style.left="30%";
 
-     	<div id="div4">
-		<p class="subhead"><b>Employment:</b></p>
+  } else {
+    document.getElementById("emp").style.top="0";
+    document.getElementById("emp").style.left="0";
+  }
+  return;
+} 
+
  
-        <table id="manage">
-        	<tr>
-        		<td class="col1">2002-2012 </td> 
-        		<td class="col2"><b> President/Owner </b>Sperry Automotive Warehouse / Auto Electric. General manager of three location auto parts distributor with 35+ employees. Sales in 1.5M to 2.5M range (annual). Also managed purchasing function for company</td>
-        	</tr>
-        	
-        	<tr>
-        		<td class="col1">1998-2011 </td> 
-        		<td class="col2"><b> Vice President-Controller </b>Duties included (in addition to all programming requirements) accounting, payroll, inventory mangament, insurance negotiations, human resource management</td>
-        	</tr> 
-        	
-        	<tr>
-        		<td class="col1">1990s </td> 
-        		<td class="col2"><b> Data Processing Manager </b>Wrote nearly all the applications for the company</td>
-        	</tr>        	
-        </table>
-        <br>
-    	</div>
+ function projClick() {
+  if (document.getElementById("proj").style.top!=0) {
+    document.getElementById("proj").style.top="700px";
+    document.getElementById("proj").style.left="60%";
 
-    	<div id="div5">
-        <p id="edu1"><b>Education:     </b></p>
-        <p id="edu2"><b> Graduate Student (3rd semister) </b>Computer Science, Southern CT State University (2014-present)</p>
-        
-		<br>
-		<p id="edu3"><b> Bachelor Degree </b>Biochemisty, Elmira College, New York</p>
-		<p>.</p>
-    	</div>
+  } else {
+    document.getElementById("proj").style.top="0";
+    document.getElementById("proj").style.left="0";
+  }
+    return;
+} 
 
-        <img id="pic1" src="img/IMG_2394.JPG" alt="Carl1">
+ 
+ function langClick() {
+  if (document.getElementById("lang").style.top!=0) {
+    document.getElementById("lang").style.top="700px";
+    document.getElementById("lang").style.left="90%";
+
+  } else {
+    document.getElementById("lang").style.top="0";
+    document.getElementById("lang").style.left="0";
+  }
+  return;
+} 
+</script>
+  
+</body>
 
 
-
-    </body>
-</html>
