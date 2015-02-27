@@ -1,5 +1,66 @@
 /* All markup */
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/* All style should go in this document. */
+h1	{color: black;
+	text-align: center;
+	margin: 0px;
+    }
+
+
+
+h3.left 	{display: inline;
+			 position: absolute;
+			 left; 20px;
+			}
+
+h3.cent 	{display: inline;
+			position: absolute;
+			left: 520px;
+			}
+
+h3.right	{display:inline;
+			position: absolute;
+			right: 20px;
+			}
+
+#div1 p {font-size:18px;
+		}
+
+p   {font-size: 15px;
+     color: black;
+	}
+
+.col1 {width: 100px;
+		text-align: left;
+	}
+
+.col2 {width: 700px;
+		text-align: left;}
+
+
+#pic1 {position: absolute;
+	   top: 500px;
+	   right: 200px;
+	   width: 200px;
+       height: 300px;
+       transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);  
+    }
+
+#skills {position: absolute;
+		left: 40px
+	}
+
+
+#edu1 {position: absolute;
+   	   left: 10px;
+   	}
+=======
+>>>>>>> master
 body {font-family: sans-serif;
       font-size: 1.0em;
       color: #1a1a50;
@@ -7,6 +68,7 @@ body {font-family: sans-serif;
 p.toolbar {background-color: #1a1a50;
            color: white;
 }
+<<<<<<< HEAD
 
 /* Personal section */
 
@@ -34,6 +96,36 @@ ul#perContacts {width: 275px;
 .perData {font-size: 1.1em;
 }
 
+=======
+>>>>>>> dev
+
+/* Personal section */
+
+div#per {position: absolute;
+         width: 320px;
+         height: 600px;
+/*        background-color:rgba(236,246,192,1); */
+         z-index: 10;
+         left: 0%;
+         top: 0;
+         box-shadow: -6px 6px 10px #666;
+         background-image: url("IMG_3279.JPG");
+}
+#perTool {color: red;
+}
+#perTitle {margin: 0 0 0 60px;
+}
+ 
+img#face {width:200px;
+          height: 200px;
+          margin: 0 0 0 50px;
+}
+ul#perContacts {width: 275px;
+}
+.perData {font-size: 1.1em;
+}
+
+>>>>>>> master
 /* Navigation section */
 
 div#nav {position: absolute;
@@ -119,6 +211,7 @@ div#lang {position: absolute;
          top: 700px;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
+<<<<<<< HEAD
 }
 #langTool {color: red;
 }
@@ -129,3 +222,12 @@ div#lang {position: absolute;
 
 
 
+=======
+}
+#langTool {color: red;
+}
+#langTool:active{color: yellow;
+}
+#langTitle {margin: 0 0 0 100px;
+  
+>>>>>>> master
