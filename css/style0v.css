@@ -1,0 +1,83 @@
+
+/* All style should go in this document. */
+h1	{color: black;
+	text-align: center;
+	margin: 0px;
+    }
+
+
+
+h3#phone 	{display: inline;
+			 position: absolute;
+			 left; 20px;
+			}
+
+h3#address 	{display: inline;
+			position: absolute;
+			left: 520px;
+			}
+
+h3#email	{display:inline;
+			position: absolute;
+			right: 20px;
+			}
+
+#div1 p {font-size:18px;
+		}
+
+p   {font-size: 15px;
+     color: black;
+	}
+
+.col1 {width: 100px;
+		text-align: left;
+	}
+
+.col2 {width: 700px;
+		text-align: left;}
+
+
+#pic1 {position: absolute;
+	   top: 500px;
+	   right: 200px;
+	   width: 200px;
+       height: 300px;
+       transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -webkit-transform: rotate(90deg); 
+    }
+
+#skills {position: absolute;
+		left: 40px
+	}
+
+
+#edu1 {position: absolute;
+   	   left: 10px;
+   	}
+
+#edu2 {position: absolute;
+	  display: inline;
+	  left: 117px;
+	}
+
+#edu3 {position: absolute;
+	  display: inline;
+		left: 117px;
+	}
+
+#div1:hover {background-color: #99ff99;
+}
+
+#div2:hover {background-color: #99ccff;
+}
+
+#div3:hover {background-color: #ff99cc;
+}
+
+#div4:hover {background-color: #ff5050;
+}
+
+#div5:hover {background-color: #ccff33;
+}
+ 
