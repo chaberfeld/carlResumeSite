@@ -9,6 +9,9 @@ p.toolbar {background-color: #1a1a50;
            color: white;
 }
 
+a {color: #1a1a50;
+}
+
 /* Personal section */
 
 div#per {position: absolute;
@@ -22,7 +25,8 @@ div#per {position: absolute;
          background-image: url("IMG_3279.JPG");
          color: white;
 }
-#perTool {color: red;
+#perTool {color: white;
+          margin: 0 0 0 5px;
 }
 #perTitle {margin: 0 0 0 60px;
 }
@@ -47,7 +51,8 @@ div#nav {position: absolute;
          top: 0;
          box-shadow: -6px 6px 10px #666;
 }
-#navTool {color: red;
+#navTool {color:white;
+          margin: 0 0 0 5px;
 }
 #navTool:active{color: yellow;
 }
@@ -60,12 +65,13 @@ div#emp {position: absolute;
          width: 320px;
          height: 600px;
          background-color:rgba(236,246,192,1);
-         left: 0%;
-         top: 700px;
+         left: 3000px;
+         top: 0px;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#empTool {color: red;
+#empTool {color: white;
+          margin: 0 0 0 5px;
 }
 #empTool:active{color: yellow;
 }
@@ -77,12 +83,13 @@ div#edu {position: absolute;
          width: 320px;
          height: 600px;
          background-color:rgba(236,246,192,1);
-         left: 30%;
-         top: 700px;
+         left: 3100px;
+         top: 0px;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#eduTool {color: red;
+#eduTool {color: white;
+          margin: 0 0 0 5px;
 }
 #eduTool:active{color: yellow;
 }
@@ -95,12 +102,13 @@ div#proj {position: absolute;
          width: 320px;
          height: 600px;
          background-color:rgba(236,246,192,1);
-         left: 60%;
-         top: 700px;
+         left: 3200px;
+         top: 0px;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#projTool {color: red;
+#projTool {color:white;
+          margin: 0 0 0 5px;
 }
 #projTool:active{color: yellow;
 }
@@ -113,12 +121,13 @@ div#lang {position: absolute;
          width: 320px;
          height: 600px;
          background-color:rgba(236,246,192,1);
-         left:90%;
-         top: 700px;
+         left:3300px;
+         top: 0px;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#langTool {color: red;
+#langTool {color: white;
+          margin: 0 0 0 5px;
 }
 #langTool:active{color: yellow;
 }
