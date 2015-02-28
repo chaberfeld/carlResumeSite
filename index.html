@@ -42,6 +42,7 @@
    <li><a href="javascript:projClick();">Projects</a></li>
    <li><a href="javascript:empClick();">Work History</a></li>
    <li><a href="javascript:langClick();">Programming</a></li>
+   <li><a href="javascript:treClick();">Trending...</a></li>
  </ul>
 </div>
 
@@ -106,7 +107,22 @@
  </dl>
 </div>
   
+  <!-- Trending -->
+<div id="tre">
+  <p class="toolbar">
+    <span id="treTool" onclick="treClick()">&#10006</span>
+    <span id="treTitle">Programming</span>
+  </p>
   
+  <ul>
+       <l1 class="treData"><a href="http://Huffingtonpost.com">Huffington Post</a></li>
+       <br> 
+       <l1 class="treData"><a href="http://www.Quora.com">Quora</a></li>  
+       <br>       
+       <l1 class="treData"><a href="http://sciencedaily.com">Science Daily</a></li>     
+    
+ </ul>
+</div> 
 
   
  <!-- Actual Javascript -->
@@ -167,6 +183,18 @@ document.getElementById("per").style.left="0";
   } else {
     document.getElementById("lang").style.top="0";
     document.getElementById("lang").style.left="0";
+  }
+} 
+
+ 
+ function treClick() {
+  if (document.getElementById("tre").style.top!=0) {
+    document.getElementById("tre").style.top="700px";
+    document.getElementById("tre").style.left="3400px";
+
+  } else {
+    document.getElementById("tre").style.top="0";
+    document.getElementById("tre").style.left="0";
   }
 } 
 </script>
