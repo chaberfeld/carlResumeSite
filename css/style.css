@@ -39,7 +39,23 @@ ul#perContacts {width: 275px;
 .perData {font-size: 1.0em;
 }
 
+/* Navigation section */
 
+div#nav {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         z-index: 5;
+         left: 0%;
+         top: 0;
+         box-shadow: -6px 6px 10px #666;
+}
+#navTool {color: red;
+}
+#navTool:active{color: yellow;
+}
+#navTitle {margin: 0 0 0 100px;
+}
 
 /* Employment section */
 
