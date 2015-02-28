@@ -4,6 +4,7 @@
         <title>Carl Haberfeld's Resume </title>
         <link rel="stylesheet" href="css/style.css">
         <script src="js/"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
   
@@ -15,24 +16,24 @@
 <!-- Personal Information -->
 <div id="per">
   <p class="toolbar">
-    <span id="perTool" onclick="perClick();return;">@</span>
+    <span id="perTool" onclick="perClick()">&#9776</span>
     <span id="perTitle"><b>Carl J. Haberfeld</b></span>
   </p>
   
   <img id="face" src="img/IMG_2387.JPG">
   
   <ul id="perContacts">
-    <li class="perData">Cell<b><br> (203) 514-8770</b></li><br>
-    <li class="perData"><b>chaberfeld@gmail.com</b></li><br>
-    <li class="perData"><b>haberfeldc1@owls.southernct.edu</b></li><br>
-    <li class="perData">GitHub<br> <b>chaberfeld.github.io</b></li>
+    <li class="perData">Cell<b><br> (203) 514-8770</a></b></li><br>
+    <li class="perData"><b><a href="mailto:chaberfeld@gmail.com" onClick="alert('Right click link!')">chaberfeld@gmail.com</a></b></li><br>
+    <li class="perData"><b><a href="mailto:haberfeldc1@owls.southernct.edu" onClick="alert('Right click link!')">haberfeldc1@owls.southernct.edu</a></b></li><br>
+    <li class="perData">GitHub<br> <b><a href="http://chaberfeld.github.io" onClick="alert('Right click link!')">chaberfeld.github.io</a></b></li>
   </ul>
  </div>
 
 <!-- Navigation column -->
 <div id="nav">
   <p class="toolbar">
-    <span id="navTool" onclick="navClick();return;" >#</span>
+    <span id="navTool" onclick="navClick()" >&#10006</span>
     <span id="navTitle">Menu</span>
   </p>
                      
@@ -48,7 +49,7 @@
   <!-- Education -->
 <div id="edu">
   <p class="toolbar">
-    <span id="eduTool"  onclick="eduClick();return;">&</span>
+    <span id="eduTool"  onclick="eduClick()">&#10006</span>
     <span id="eduTitle">Education</span>
   </p>
                      
@@ -64,7 +65,7 @@
    <!-- Employment -->
 <div id="emp">
   <p class="toolbar">
-    <span id="empTool" onclick="empClick();return;">&</span>
+    <span id="empTool" onclick="empClick()">&#10006</span>
     <span id="empTitle">Employment</span>
   </p>
                      
@@ -78,7 +79,7 @@
 <!-- Projects -->
 <div id="proj">
   <p class="toolbar">
-    <span id="projTool" onclick="projClick();return;">&</span>
+    <span id="projTool" onclick="projClick()">&#10006</span>
     <span id="projTitle">Projects</span>
   </p>
                      
@@ -92,7 +93,7 @@
  <!-- Languages -->
 <div id="lang">
   <p class="toolbar">
-    <span id="langTool" onclick="langClick();return;">&</span>
+    <span id="langTool" onclick="langClick()">&#10006</span>
     <span id="langTitle">Programming</span>
   </p>
                      
@@ -114,10 +115,10 @@
 <script>
   
   function perClick() {
-   if (document.getElementById("per").style.left==0) { document.getElementById("per").style.left="260px";
+  var left = document.getElementById('per').style.left;
+   if (left==0) { document.getElementById("per").style.left="260px";
   } else {
-  document.getElementById("per").style.left="0";
-  return;
+  document.getElementById("per").style.left=0;
   }
 } 
   
@@ -128,51 +129,47 @@ document.getElementById("per").style.left="0";
  function eduClick() {
   if (document.getElementById("edu").style.top!=0) {
     document.getElementById("edu").style.top="700px";
-    document.getElementById("edu").style.left="0%";
+    document.getElementById("edu").style.left="3100px";
 
   } else {
     document.getElementById("edu").style.top="0";
     document.getElementById("edu").style.left="0";
   }
-  return;
 }
  
  function empClick() {
   if (document.getElementById("emp").style.top!=0) {
     document.getElementById("emp").style.top="700px";
-    document.getElementById("emp").style.left="30%";
+    document.getElementById("emp").style.left="3000px";
 
   } else {
     document.getElementById("emp").style.top="0";
     document.getElementById("emp").style.left="0";
   }
-  return;
 } 
 
  
  function projClick() {
   if (document.getElementById("proj").style.top!=0) {
     document.getElementById("proj").style.top="700px";
-    document.getElementById("proj").style.left="60%";
+    document.getElementById("proj").style.left="3200px";
 
   } else {
     document.getElementById("proj").style.top="0";
     document.getElementById("proj").style.left="0";
   }
-    return;
 } 
 
  
  function langClick() {
   if (document.getElementById("lang").style.top!=0) {
     document.getElementById("lang").style.top="700px";
-    document.getElementById("lang").style.left="90%";
+    document.getElementById("lang").style.left="3200px";
 
   } else {
     document.getElementById("lang").style.top="0";
     document.getElementById("lang").style.left="0";
   }
-  return;
 } 
 </script>
   
