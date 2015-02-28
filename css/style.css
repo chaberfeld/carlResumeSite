@@ -136,4 +136,23 @@ div#lang {position: absolute;
 #langTool:active{color: yellow;
 }
 #langTitle {margin: 0 0 0 100px;
-  
+} 
+
+/* Trending section */
+
+div#tre {position: absolute;
+         width: 320px;
+         height: 600px;
+         background-color:rgba(236,246,192,1);
+         left:3400px;
+         top: 0px;
+         box-shadow: 6px 6px 10px #666;
+         z-index: 15;
+}
+#treTool {color: white;
+          margin: 0 0 0 5px;
+}
+#treTool:active{color: yellow;
+}
+#treTitle {margin: 0 0 0 100px;
+}
