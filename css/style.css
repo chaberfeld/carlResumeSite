@@ -7,10 +7,13 @@ body {font-family: sans-serif;
 }
 p.toolbar {background-color: #1a1a50;
            color: white;
+           padding: 10px;
 }
 
 a {color: #1a1a50;
 }
+
+.tool {margin: 5px 0 0 0;}
 
 /* Personal section */
 
@@ -25,9 +28,10 @@ div#per {position: absolute;
          background-image: url("IMG_3279.jpg");
          color: #1a1a50;
 }
-#perTool {color: white;
+/* #perTool {color: white;
           margin: 0 0 0 5px;
-}
+} */
+
 #perTitle {margin: 0 0 0 60px;
 }
  
@@ -51,11 +55,13 @@ div#nav {position: absolute;
          top: 0;
          box-shadow: -6px 6px 10px #666;
 }
-#navTool {color:white;
-          margin: 0 0 0 5px;
-}
-#navTool:active{color: yellow;
-}
+/*#navTool {color:white;
+          margin: 5px 0 0 5px; 
+} */
+
+
+/* #navTool:active{color: yellow;
+} */
 #navTitle {margin: 0 0 0 100px;
 }
 
@@ -70,11 +76,13 @@ div#emp {position: absolute;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#empTool {color: white;
+
+/* #empTool {color: white;
           margin: 0 0 0 5px;
 }
 #empTool:active{color: yellow;
-}
+} */
+
 #empTitle {margin: 0 0 0 100px;
 }
 /* Education section */
@@ -88,11 +96,13 @@ div#edu {position: absolute;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#eduTool {color: white;
+
+/* #eduTool {color: white;
           margin: 0 0 0 5px;
 }
 #eduTool:active{color: yellow;
-}
+} */
+
 #eduTitle {margin: 0 0 0 100px;
 }
 
@@ -107,11 +117,13 @@ div#proj {position: absolute;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#projTool {color:white;
+
+/* #projTool {color:white;
           margin: 0 0 0 5px;
 }
 #projTool:active{color: yellow;
-}
+} */
+
 #projTitle {margin: 0 0 0 110px;
 }
 
@@ -126,11 +138,13 @@ div#lang {position: absolute;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#langTool {color: white;
+
+/* #langTool {color: white;
           margin: 0 0 0 5px;
 }
 #langTool:active{color: yellow;
-}
+} */
+
 #langTitle {margin: 0 0 0 100px;
 } 
 
@@ -145,10 +159,12 @@ div#tre {position: absolute;
          box-shadow: 6px 6px 10px #666;
          z-index: 15;
 }
-#treTool {color: white;
+
+/* #treTool {color: white;
           margin: 0 0 0 5px;
 }
 #treTool:active{color: yellow;
-}
+} */
+
 #treTitle {margin: 0 0 0 100px;
   
