@@ -1,2 +1,3 @@
 # my-first-github-repo
-An initial test repo for A100 Apprentices to use to practice on.
+This is my personal website.
+To paraphrase Alice Cooper, it still has a long way to go!
