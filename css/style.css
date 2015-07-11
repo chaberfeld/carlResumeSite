@@ -1,8 +1,8 @@
 /* All markup */
 
 body {font-family: sans-serif;
-      font-size: 1.0em;
-      width: 320px;  
+      font-size: 1.2em;
+      width: 360px;  
       color: #1a1a50;
 }
 p.toolbar {background-color: #1a1a50;
@@ -18,7 +18,7 @@ a {color: #1a1a50;
 /* Personal section */
 
 div#per {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
 /*        background-color:rgba(236,246,192,1); */
          z-index: 10;
@@ -35,8 +35,8 @@ div#per {position: absolute;
 #perTitle {margin: 0 0 0 60px;
 }
  
-img.extn {width:40px;
-          height: 40px;
+img.extn {width:30px;
+          height: 30px;
           margin: 0 0 0 25px;
 }
 ul#perContacts {width: 275px;
@@ -47,7 +47,7 @@ ul#perContacts {width: 275px;
 /* Navigation section */
 
 div#nav {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
          background-color:rgba(236,246,192,1);
          z-index: 5;
@@ -68,7 +68,7 @@ div#nav {position: absolute;
 /* Employment section */
 
 div#emp {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
          background-color:rgba(236,246,192,1);
          left: 3000px;
@@ -88,7 +88,7 @@ div#emp {position: absolute;
 /* Education section */
 
 div#edu {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
          background-color:rgba(236,246,192,1);
          left: 3100px;
@@ -109,7 +109,7 @@ div#edu {position: absolute;
 /* Project section */
 
 div#proj {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
          background-color:rgba(236,246,192,1);
          left: 3200px;
@@ -130,7 +130,7 @@ div#proj {position: absolute;
 /* Lang section */
 
 div#lang {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
          background-color:rgba(236,246,192,1);
          left:3300px;
@@ -151,7 +151,7 @@ div#lang {position: absolute;
 /* Trending section */
 
 div#tre {position: absolute;
-         width: 320px;
+         width: 360px;
          height: 600px;
          background-color:rgba(236,246,192,1);
          left:3400px;
