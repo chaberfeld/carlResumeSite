@@ -44,6 +44,8 @@ ul#perContacts {width: 275px;
 .perData {font-size: 1.0em;
 }
 
+p.perBlurb {margin: 30px;}
+
 /* Navigation section */
 
 div#nav {position: absolute;
