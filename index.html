@@ -4,6 +4,9 @@
         <title>Carl Haberfeld's Resume </title>
         <link rel="stylesheet" href="css/style.css">
         <script src="js/scripts.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+        <script type="text/javascript" src="js/send-email.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
@@ -21,7 +24,10 @@
 
       <td><a href="https://www.linkedin.com/pub/carlf-haberfeld/44/785/390">
         <img class="extn" src="img/linkedin.jpg">
-      </a><td>
+      </a></td>
+      <td><span onclick="sendTheMail(); return false;">
+        <!--img class="extn" src="img/linkedin.jpg"-->
+      </span></td>
       
 
     </tr>
