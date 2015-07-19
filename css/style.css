@@ -18,19 +18,23 @@ a {/* color: #1a1a50; */
 
 .tool {margin: 5px 0 0 0;}
 
+
 /* Personal section */
 
 div#per {position: absolute;
-         width: 360px;
-         height: 600px;
-/*        background-color:rgba(236,246,192,1); */
-         z-index: 10;
-         left: 0%;
-         top: 0;
-         box-shadow: -6px 6px 10px #666;
-         background-image: url("20150717_145343m2.jpg");
-        /*background-image: url("IMG_3279.JPG"); */
-      /*   color: #1a1a50; */
+          width: 360px;
+          height: 600px;
+       
+          z-index: 10;
+          left: 0%;
+          top: 0;
+          box-shadow: -6px 6px 10px #666;
+          background-image: url("20150717_145334y1c1.jpg");
+          /* background-color:rgba(236,246,192,.1); */ 
+          /*background-image: url("IMG_3279.JPG"); */
+          /*   color: #1a1a50; */
+          /* opacity: 0.5; */
+          /*filter: alpha(opacity=50); */
 }
 /* #perTool {color: white;
           margin: 0 0 0 5px;
