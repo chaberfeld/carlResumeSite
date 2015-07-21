@@ -1,142 +1,135 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <title>Carl Haberfeld's Resume </title>
-        <link rel="stylesheet" href="css/style.css">
-        <script src="js/scripts.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
-        <script type="text/javascript" src="js/send-email.js"></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-<body>
-    
-<!-- Personal Information -->
-<div id="per">
-  <p class="toolbar">
-    <span onclick="perClick()"><img class="tool" src="img/ic_menu_white_24px.svg" alt=""></span>
-    <span id="perTitle"><b>Carl J. Haberfeld</b></span>
-  </p>
+  <head>
+    <title>Carl Haberfeld's Resume </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://mandrillapp.com/api/docs/js/mandrill.js"></script>
+    <script type="text/javascript" src="js/send-email.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <!-- Personal Information -->
+    <div id="per">
+      <p class="toolbar">
+        <span onclick="perClick()"><img class="tool" src="img/ic_menu_white_24px.svg" alt=""></span>
+        <span id="perTitle"><b>Carl J. Haberfeld</b></span>
+      </p>
   
-  <table>
-    <tr>
+      <table>
+        <tr>
+          <td><a href="https://www.linkedin.com/pub/carl-haberfeld/44/785/390">
+            <img class="extn" src="img/linkedin.jpg">
+          </a></td>
+          <td><span onclick="sendTheMail(); return false;">
+          <!--img class="extn" src="img/linkedin.jpg"-->
+          </span></td>
+        </tr>
+      </table>
 
-      <td><a href="https://www.linkedin.com/pub/carl-haberfeld/44/785/390">
-        <img class="extn" src="img/linkedin.jpg">
-      </a></td>
-      <td><span onclick="sendTheMail(); return false;">
-        <!--img class="extn" src="img/linkedin.jpg"-->
-      </span></td>
-      
+      <p class="perBlurb">Contact infomation</p>
 
-    </tr>
-   </table>
+      <ul id="perContacts">
+        <li class="perData">Cell<b><br> (203) 514-8770</a></b></li><br>
+        <li class="perData"><b><a href="mailto:chaberfeld@gmail.com" onClick="alert('Right click link!')">chaberfeld@gmail.com</a></b></li><br>
+        <li class="perData"><b><a href="mailto:haberfeldc1@owls.southernct.edu" onClick="alert('Right click link!')">haberfeldc1@owls.southernct.edu</a></b></li><br>    
+      </ul>
 
-  <p class="perBlurb">Contact infomation</p>
+      <p class="perBlurb">Looking for opportunities to improve my software development skills </p>
 
-  <ul id="perContacts">
-    <li class="perData">Cell<b><br> (203) 514-8770</a></b></li><br>
-    <li class="perData"><b><a href="mailto:chaberfeld@gmail.com" onClick="alert('Right click link!')">chaberfeld@gmail.com</a></b></li><br>
-    <li class="perData"><b><a href="mailto:haberfeldc1@owls.southernct.edu" onClick="alert('Right click link!')">haberfeldc1@owls.southernct.edu</a></b></li><br>
-    
-  </ul>
+    </div>  
 
-  <p class="perBlurb">Looking for opportunities to improve my software development skills </p>
-
-
- </div>  
-
-<!-- Navigation column -->
-<div id="nav">
-  <p class="toolbar">
-    <span onclick="navClick()" ><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
-    <span id="navTitle">Menu</span>
-  </p>
+    <!-- Navigation column -->
+    <div id="nav">
+      <p class="toolbar">
+      <span onclick="navClick()" ><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
+      <span id="navTitle">Menu</span>
+      </p>
                      
- <ul>
-   <!--li><a href="javascript:eduClick();">Education</a></li-->
-   <li><a href="javascript:projClick();">Projects</a></li>
-   <li class="perData"><a href="img/resume.pdf">My <b>Resume</b></a></li>
-   <!--li><a href="javascript:empClick();">Work History</a></li-->
-   <!--li><a href="javascript:langClick();">Programming</a></li-->
-   <li><a href="javascript:treClick();">Some favorite sites</a></li>
- </ul>
-</div>
+      <ul>
+        <!--li><a href="javascript:eduClick();">Education</a></li-->
+        <li><a href="javascript:projClick();">Projects</a></li>
+        <li class="perData"><a href="img/resume.pdf">My Resume</a></li>
+        <!--li><a href="javascript:empClick();">Work History</a></li-->
+        <!--li><a href="javascript:langClick();">Programming</a></li-->
+        <li><a href="javascript:treClick();">Some favorite sites</a></li>
+      </ul>
+    </div>
 
-  <!-- Education -->
-<div id="edu">
-  <p class="toolbar">
-    <span onclick="eduClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
-    <span id="eduTitle">Education</span>
-  </p>
+    <!-- Education -->
+    <div id="edu">
+      <p class="toolbar">
+      <span onclick="eduClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
+      <span id="eduTitle">Education</span>
+      </p>
                      
- <dl>
-   <dt><b>Education</b>
-       <dd>SCSU 2014-current</dd>
-       <dd>Elmira College, Biochemisty</dd>
- </dl>
-</div>
+      <dl>
+        <dt><b>Education</b>
+        <dd>SCSU 2014-current</dd>
+        <dd>Elmira College, Biochemisty</dd>
+      </dl>
+    </div>
 
-
-
-   <!-- Employment -->
-<div id="emp">
-  <p class="toolbar">
-    <span onclick="empClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
-    <span id="empTitle">Employment</span>
-  </p>
+    <!-- Employment -->
+    <div id="emp">
+      <p class="toolbar">
+      <span onclick="empClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
+      <span id="empTitle">Employment</span>
+      </p>
                      
- <dl>
-   <dt><b>Work Experience</b>
-       <dd>Owner</dd>
-       <dd>Computer programmmer</dd>
- </dl>
-</div>
+      <dl>
+        <dt><b>Work Experience</b>
+        <dd>Owner</dd>
+        <dd>Computer programmmer</dd>
+      </dl>
+    </div>
   
-<!-- Projects -->
-<div id="proj">
-  <p class="toolbar">
-    <span onclick="projClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
-    <span id="projTitle">Projects</span>
-  </p>
+    <!-- Projects -->
+    <div id="proj">
+      <p class="toolbar">
+      <span onclick="projClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
+      <span id="projTitle">Projects</span>
+      </p>
  
-  <p><img class="extn" src="img/github3.jpg"></p>
+      <p><img class="extn" src="img/github3.jpg"></p>
 
-  <ul>
+      <ul>
     
-    <li><a href="https://github.com/chaberfeld/carlResumeSite.git">Personal website</a></li>
-    <li><a href="https://github.com/chaberfeld/justcostus.git">JustCost.Us website</a></li>
-    <li><a href="https://github.com/chaberfeld/peerless.git">P2P file sharing system</a></li>
-    
-  </ul>
-</div>
+        <li><a href="https://github.com/chaberfeld/carlResumeSite.git">Personal website (code)</a></li>
+        <li><a href="https://github.com/chaberfeld/justcostus.git">JustCost.Us (code)</a></li>
+        <li><a href="http://justcostus.meteor.com/">JustCost.Us (website)</a></li>
+        <li><a href="https://github.com/chaberfeld/peerless.git">P2P file sharing system (code)</a></li>  
+      </ul>
+    </div>
 
- <!-- Languages -->
-<div id="lang">
-  <p class="toolbar">
-    <span onclick="langClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
-    <span id="langTitle">Programming</span>
-  </p>
+   <!-- Languages -->
+    <div id="lang">
+      <p class="toolbar">
+      <span onclick="langClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
+      <span id="langTitle">Programming</span>
+      </p>
                      
-  <dl>
-    <dt><b>Languages</b>
-       <dd>RPG (on IBM AS/400)</dd>
-       <dd>Java</dd>
-       <dd>Perl</dd>
-       <dd>Javascript</dd>
-       <dd>SQL</dd>
-    
- </dl>
-</div>
+      <dl>
+        <dt><b>Languages</b>
+        <dd>RPG (on IBM AS/400)</dd>
+        <dd>Java</dd>
+        <dd>Perl</dd>
+        <dd>Javascript</dd>
+        <dd>SQL</dd>   
+      </dl>
+    </div>
   
-  <!-- Trending -->
-<div id="tre">
-  <p class="toolbar">
-    <span onclick="treClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
-    <span id="treTitle">Some favorites</span>
-  </p>
+    <!-- Trending -->
+    <div id="tre">
+      <p class="toolbar">
+      <span onclick="treClick()"><img class="tool" src="img/ic_close_white_24px.svg" alt=""></span>
+      <span id="treTitle">Some favorites</span>
+      </p>
   
-  <ul>
+      <ul>
        <l1 class="treData"><a href="http://Huffingtonpost.com">Huffington Post</a></li>
        <br> 
        <l1 class="treData"><a href="http://www.Quora.com">Quora</a></li>  
@@ -148,16 +141,15 @@
        <l1 class="treData"><a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">www.tiobe.com</a></li> 
        <br>
        <l1 class="treData"><a href="http://www.w3.org/">W3C</a></li>        
-    
- </ul>
-</div> 
+      </ul>
+    </div> 
 
-<!-- Send email notice to me -->  
-<script>
-var mip = myIP();
-/*console.log(mip); */
-sendTheMail(mip);  
-</script>  
-</body>
+    <!-- Send email notice to me -->  
+    <script>
+      var mip = myIP();
+      /*console.log(mip); */
+      sendTheMail(mip);  
+    </script>  
+  </body>
 
 
